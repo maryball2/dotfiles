@@ -3,7 +3,7 @@
 #
 
 [[ $- != *i* ]] && return
-alias updatedots="sudo cp .bashrc ~/Programs/Shell/dotfiles && cd Programs/Shell/dotfiles && git commit .bashrc && gitcommit"
+alias updatedots="sudo cp .bashrc ~/Programs/Shell/dotfiles && cd Programs/Shell/dotfiles && git commit .bashrc && git push && cd ~"
 alias bashrc="vim .bashrc"
 alias countryroads="cd ~"
 alias exi="exit"
