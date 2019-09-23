@@ -4,7 +4,6 @@
 
 [[ $- != *i* ]] && return
 
-alias cl="cd && ls"
 alias bashrc="vim .bashrc"
 alias countryroads="cd ~"
 alias exi="exit"
