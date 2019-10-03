@@ -12,6 +12,7 @@ alias l="ls"
 alias starwars="telnet towel.blinkenlights.nl"
 alias strangerstolove="curl -s -L http://bit.ly/10hA8iC | bash"
 alias downloaddots="cd ~/Programs/Shell/dotfiles && git fetch && sudo ./install.sh && cd ~"
+alias :q="exit"
 colors() {
 	local fgc bgc vals seq0
 
